@@ -1,0 +1,295 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	UIU EMS LogIn
+</title>
+        <link rel="shortcut icon" href="/Images/favicon.ico" />
+    
+    <style type="text/css">
+        input.button {
+            color: #ffffff;
+            font-weight: normal;
+            font-size: 10pt;
+            font-weight: 500;
+            font-family: Tahoma;
+            vertical-align: middle;
+            border: solid 1px #bc7039;
+            background: #c2743c;
+            padding: 1px 1px 1px 1px;
+            cursor: pointer;
+            width: 75px;
+            height: 26px;
+            letter-spacing: 1px;
+        }
+
+            input.button:hover {
+                background: #719a9f top;
+                border: solid 1px #71ACB4;
+                color: #454240;
+            }
+
+        .footer {
+            border-top: 1px solid #ff6a00;
+            padding-top: 10px;
+            width: 75%;
+            margin: 0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: #5d5d5d;
+        }
+    </style>
+    <script type="text/javascript">
+
+
+        function InProgress() {
+            var panelProg = $get('divProgress');
+            panelProg.style.display = '';
+        }
+
+        function onComplete() {
+            var panelProg = $get('divProgress');
+            panelProg.style.display = 'none';
+        }
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-62803724-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body style="background-color: #f6f3f1; margin: 0 auto; min-width: 640px; max-width: 1366px;">
+    <form name="frmLogIn" method="post" action="./LogIn.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="frmLogIn">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY4Njc4OTA4Mg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBZGS4HljmDey4G/QdqphFtB5wzz2HKx6a3Gzx6n3zePX6jg==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmLogIn'];
+if (!theForm) {
+    theForm = document.frmLogIn;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=HvoDiaW0jzFcP6jotB8z32SKy56GvGTv5oTsf3fCc_yOgDlR7h2pyxyFg0vPUc5np4vBnAfLyxFZ4fjo-QcOWlaiBwgqTc-8j1ta8YCn6eA1&amp;t=635875725181218729" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=fWCKtVyrIRC2Jb2jNokTlLSBuj2mLqpc4-KsTxuLQ2WAnNzc8w2Zq2uOBXRKyAvbFqwmV37Rbv7710jYKjA_vGhbuPqcyzIKFAGSpim7feA5WQ4O6fghD-51fX1TfGNoslgYUocAqAhI6rCeUF5ZSB1iDRdo9S9VeziwwdZzIxc1&amp;t=1c6690ce" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=A_U9xYjrvKRoCDpxdmhqaN4C7mY_4iJjweqZy7Ai9hhWU4JcG65OmYrxOpOvxCYiWCMLfXXaJVbzTfZkiLDSkWjf5dVHhRBHcbEoJtpGOVDtzXPZzW5CoOmK3d-0wWKlTv1OnZmkVgiH3BH6jhLOcg2&amp;t=610a7411" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=2295Jnskqg5Pd9FKfKHl6eKyzrChaIeH2g1qfEE4kbXOkOqygUFPO3RczgDISAwDQOVMiJK8MeUkgtXyQag_9JWIL2b3vGJn6cU2mLx09IzZeGN6wJkQRWYdPUoOeBCt1dDAaFNBmiP1DyIx4QSPVA2&amp;t=610a7411" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=cDTGVfCMktc0cVKAGBqOY5GSZGINLp8VkUa7IR2siTLc0uXSkdGBZ5iwCU7jJHgTrrPwQ9GUNSH-9jj9cPexRU1FQcQ9XdKQFV2xbPdSPCbubkmVG-xzOdAVsg7TEQmPyAouA6in-kzzt9hf2fIdxQ2&amp;t=610a7411" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=rHdaa0v1hK1zoL4smtw7kH5d8Kg1Z0rYK-2KVV2pSDaw2jK17PV0lzgrNpTAdHnzU1oZhb-00-qe7RzMa4DALI1_x4_0Dnl6VvkzVUblwfVURbT7kPVSZMZ5F95tmA2OuUx1rTVEi-pxjL7eaMtOgA2&amp;t=610a7411" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_5M3vMRbHPl61AhjTdc6lTrkFLvS_8dVbqb4XHcjTKd0Q1S8p1OxoyDX07R15D3RRjMYKcd0SmRXGTYq9QdwRalTEQl1DPqmkwzY4NGzGc0pr3Gy7-EEpAjJu0_rN2kl9EV-5mN86gdJkypwTLcwnw2&amp;t=610a7411" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dOUzPEIF5e_MUmwzzZkLzvrwT0kPISmP3hYlhrZP8AmikJGP9aLXqGCEIMioybYhGXuYnET5F0T_Ifb8v_s-QUEhc4uW3udwfQi97x-amjBUrcjy8kZ4tqgHKcv4MgoxwRdccI8QPg4klva2ZgSnjA2&amp;t=610a7411" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qchBW4Iy53-eLwS7mtCk_f_SWi8wXduixplz-s4uDd_NzvXd0YuLrRrf4jF79h1vzFhFqVeI4mbsR7MGz-ihll6RIm7Kbxnvz6DwX9aRAUmVFIWH-L5J83jaGpsAjIklTPzI3x1JkOcOEXF-fdaNgpjTJYS39yjvlbI70UI2IpQ1&amp;t=610a7411" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=jB1y5H432iObDywxyptSKEXxiXu-i7vXQaipAuvzHpCEmY2P8GEGNY8uyRo4zFnMRvPj6XqKJPqXmTh7mRRx6ALlhldk7nwJI_ZFhrFog96S9f-0fMaaF-HgExdwX87ItAn5QSUcNiIlR6TiaH6ombiibur0f9MXOlbCNdV4UY_2ShL4h1rOxOaV0QsFKO_d0&amp;t=610a7411" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A0A15FC2" />
+</div>
+        <div id="mainDiv" style="width: 100%; background: #f6f3f1; margin: 0 auto; border: 0px solid red; text-align: left; height: 100%; vertical-align: middle">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <table width="100%;">
+                <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('scMgtMas', 'frmLogIn', ['tupMain','','tUpdatePanel2',''], [], [], 90, '');
+//]]>
+</script>
+
+                <tr>
+                    <td style="background-color: #f0ebe8;">
+                        <div id="upMain">
+	
+
+
+                                <div style="height: 100%; width: 31.6%; border: 0px solid black; margin: 0 auto; vertical-align: middle; background: #ecdfd7">
+                                    <table style="vertical-align: central">
+                                        <tr>
+                                            <td align="center" style="border: 0px solid green" valign="middle">
+                                                <img alt="" src="../Images/UIU_logo.png" width="100" />
+                                            </td>
+                                            <td align="center" style="border: 0px solid red" valign="middle">
+                                                <table id="logMain" cellspacing="0" cellpadding="0" border="0" style="color:#333333;background-color:#DFB398;border-width:0px;border-style:Solid;font-family:Verdana;font-size:0.8em;height:114px;width:227px;border-collapse:collapse;">
+		<tr>
+			<td>
+                                                        <table cellpadding="4" cellspacing="0" style="padding-left: 10px; padding-right: 8px">
+                                                            <tr>
+                                                                <td>
+                                                                    <table cellpadding="0" class="Padding" width="294px">
+                                                                        <tr>
+                                                                            <td colspan="2" align="left" style="border-width: 1px; font-family: Arial; font-size: 14px; font-weight: 500; color: #6b4b37" valign="middle">
+                                                                                <label for="logMain_UserName" id="logMain_UserNameLabel">Login ID:</label>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" class="mleft" colspan="2">
+                                                                                <input name="logMain$UserName" type="text" id="logMain_UserName" style="background-color:#EFECEA;border-width:1px;border-style:Solid;font-family:Arial;font-size:Medium;height:22px;width:250px;margin-left: 0px; border-radius: 3px" />
+                                                                                <span id="logMain_RegularExpressionValidator1" style="color:Red;visibility:hidden;">*</span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="auto-style4">&nbsp;</td>
+                                                                            <td></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td colspan="2" align="left" style="border-width: 1px; border-style: None; font-family: Arial; font-size: 14px; font-weight: 500; color: #6b4b37" valign="middle">
+                                                                                <label for="logMain_Password" id="logMain_PasswordLabel">Password:</label>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" class="mleft" colspan="2">
+                                                                                <input name="logMain$Password" type="password" id="logMain_Password" style="background-color:#EFECEA;border-width:1px;border-style:Solid;font-family:Arial;font-size:Medium;height:22px;width:250px;margin-left: 0px; border-radius: 3px" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="right" style="font-size: 14px; height: 5px" colspan="2">
+                                                                                                                                                           
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-size: 12px; width: 200px;">
+                                                                                <a href="../PasswordRecovery.aspx" style="color: #454240; text-decoration: none">Forgot Your Password ?</a>
+                                                                            </td>
+                                                                            <td align="right">
+                                                                                <input type="submit" name="logMain$Button1" value="LOG IN" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;logMain$Button1&quot;, &quot;&quot;, true, &quot;logMain&quot;, &quot;&quot;, false, false))" id="logMain_Button1" class="button" style="height:35px;width:120px;" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr style="height: 15px">
+                                                                            <td colspan="2" align="left" style="font-size: 10px;" valign="middle" class="auto-style4">
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+		</tr>
+	</table>
+                                            </td>
+                                            <td>
+                                                <div id="divProgress" style="display: none; z-index: 1000;">
+                                                    <img id="LoadingImage" src="../Images/Img/working.gif" style="height:150px;width:150px;border-width:0px;" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            
+</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        
+
+
+        <div id="UpdatePanel2">
+	
+            
+</div>
+
+        <div>&nbsp</div>
+        <div>&nbsp</div>
+        <div>&nbsp</div>
+        <div>&nbsp</div>
+        <div>&nbsp</div>
+        <div>&nbsp</div>
+        <div class="footer" style="Text-align: center">
+            <div>
+                Powered by <b>Edusoft Consultants Ltd</b><br />
+                Copyright &copy; 2013 - 2014 Edusoft Consultants Ltd. All rights reserved.
+            </div>
+        </div>
+
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("logMain_RegularExpressionValidator1"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var logMain_RegularExpressionValidator1 = document.all ? document.all["logMain_RegularExpressionValidator1"] : document.getElementById("logMain_RegularExpressionValidator1");
+logMain_RegularExpressionValidator1.controltovalidate = "logMain_UserName";
+logMain_RegularExpressionValidator1.errormessage = "*";
+logMain_RegularExpressionValidator1.validationGroup = "logMain";
+logMain_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+logMain_RegularExpressionValidator1.validationexpression = "^[a-zA-Z0-9_]+$";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('logMain_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('logMain_RegularExpressionValidator1'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.Animation.UpdatePanelAnimationBehavior, {"OnUpdated":"{\"AnimationName\":\"Parallel\",\"duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"ScriptAction\",\"Script\":\"onComplete();\",\"AnimationChildren\":[]},{\"AnimationName\":\"EnableAction\",\"TargetScript\":\"$get(\\u0027Button1\\u0027)\",\"Enabled\":\"true\",\"AnimationChildren\":[]}]}","OnUpdating":"{\"AnimationName\":\"Parallel\",\"duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"ScriptAction\",\"Script\":\"InProgress();\",\"AnimationChildren\":[]},{\"AnimationName\":\"EnableAction\",\"TargetScript\":\"$get(\\u0027Button1\\u0027)\",\"Enabled\":\"false\",\"AnimationChildren\":[]}]}","id":"UpdatePanelAnimationExtender1"}, null, null, $get("UpdatePanel2"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
